@@ -1,0 +1,27 @@
+{
+  "name": "intargram-photo-url",
+  "version": "1.0.0",
+  "description": "Get photo url by post id on instargram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systemis/intargram-photo-url.git"
+  },
+  "author": "systemis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/systemis/intargram-photo-url/issues"
+  },
+  "homepage": "https://github.com/systemis/intargram-photo-url#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0",
+    "xml2json": "^0.11.0"
+  }
+}
